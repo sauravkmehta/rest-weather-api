@@ -1,0 +1,7 @@
+url: http://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s&units=%s
+appid: ZmU2Yjg0MmZlOTAxZDMxNjljYzE4ODE5Mzg2Yjk2ODc=
+logging:
+  level:
+    root: info
+  pattern:
+    console: '%clr([%date{HH:mm:ss.SSS}]){faint} %clr(%2p) %clr(%-40.40logger{36}){cyan} %m%n%wex'
